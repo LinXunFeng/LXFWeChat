@@ -1,0 +1,1 @@
+../../../NIMSDK/SDK/NIMAVChat/ExportHeaders/NIMRTSRecordingInfo.h

@@ -1,0 +1,6 @@
+framework module BadgeSwift {
+  umbrella header "BadgeSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
