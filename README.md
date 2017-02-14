@@ -40,3 +40,59 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 ## 首页
 [《iOS - Swift 仿微信小红点(无数字)》](http://www.jianshu.com/p/807cddad469a)
+
+
+>由于个人原因，近期不怎么有时间去完善该项目，所以先同步上来，待有空继续去搞定它！
+
+## 目前完成的功能
+### 微信界面
+1. 显示右上角的菜单
+2. 显示最近联系人
+3. 最近联系人信息未读数的显示
+
+### 通讯录界面
+1. 联系人的排序
+2. 联系人总数显示
+
+### 发现界面
+1. 动态小红点的显示
+2. 购物选项的链接跳转
+
+### 我界面
+1. 个人头像的上传与设置，及头像的保存
+2. 我的二维码界面的显示及二维码的保存
+
+### 聊天界面
+1. 小视频的录制与发送
+2. 小视频的播放
+3. 聊天时间
+4. 图片的发送与显示
+5. 未发送成功的重发功能
+6. 语音的录制与发送
+7. 语音的播放动态效果
+
+## 已知BUG
+小视频和图片发送出去后不能立即更新显示缩略图
+
+## 效果图
+### 动态图
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/1.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/2.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/3.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/4.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/5.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/6.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/7.gif)
+
+### 静态图
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170206_1.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_1.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_2.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_3.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_4.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_5.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_6.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_7.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_8.png)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170214_9.png)
+
