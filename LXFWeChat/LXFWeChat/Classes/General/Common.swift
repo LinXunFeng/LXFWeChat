@@ -85,3 +85,9 @@ let kNoteWeChatGoBack = "noteWeChatGoBack"
 
 // MARK:- SDK
 let kAppKey = "8c05fc8cf099c153dcb5f2daec46821d"
+
+// MARK:- 直播
+let kHostProtocol = "rtmp"
+let kHostAddress = "192.168.123.191"
+let kHostPort = "1935"
+let kHostPath = "rtmplive"

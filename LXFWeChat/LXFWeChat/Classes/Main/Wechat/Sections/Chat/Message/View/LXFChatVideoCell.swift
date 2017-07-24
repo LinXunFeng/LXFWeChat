@@ -63,6 +63,9 @@ extension LXFChatVideoCell {
         LXFLog("urlStrURL --- \(URL(string: model?.videoCoverUrl ?? ""))")
         LXFLog("videoDuration --- \(model?.videoDuration)")
         
+        LXFLog("messageType --- \(model?.modelType)")
+        LXFLog("videoCoverUrl --- \(model?.videoCoverUrl) -- \(model?.videoUrl) --- \(model?.videoPath)")
+        
         chatImgView.kf.setImage(with: URL(string: model?.videoCoverUrl ?? ""))
         durationLabel.text = self.getFormatDuration(with: model?.videoDuration)
         durationLabel.sizeToFit()

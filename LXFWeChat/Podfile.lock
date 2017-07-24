@@ -18,6 +18,7 @@ PODS:
   - HandyJSON (1.2.1)
   - IQKeyboardManagerSwift (4.0.7)
   - Kingfisher (3.2.2)
+  - LFLiveKit (2.6)
   - MJRefresh (3.1.12)
   - NIMSDK (3.2.0)
   - SnapKit (3.0.2)
@@ -32,6 +33,7 @@ DEPENDENCIES:
   - HandyJSON (~> 1.2.1)
   - IQKeyboardManagerSwift
   - Kingfisher (~> 3.0)
+  - LFLiveKit
   - MJRefresh
   - NIMSDK
   - SnapKit (~> 3.0.2)
@@ -46,6 +48,7 @@ SPEC CHECKSUMS:
   HandyJSON: c20190bca46cc6e7fb87073df63ecbe90770a7b0
   IQKeyboardManagerSwift: 58bbcf46b5cf9fd4ed625d28a60cb2fbae4ab0f4
   Kingfisher: 821466474ad7ffc375a4aecadfa05068cfed67b3
+  LFLiveKit: 2219563721f8aa0f188effc3395a06e2d53b23f2
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NIMSDK: bc61bcec10393a0c213ba0dc0f8f7e0ceb9bd48c
   SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
@@ -54,6 +57,6 @@ SPEC CHECKSUMS:
   SwiftyJSON: 38a8ea2006779c0fc4c310cb2ee8195327740faf
   Toast-Swift: 5b2f8f720f7e78e48511f693df1f9c9a6e38a25a
 
-PODFILE CHECKSUM: 3abec5222bf44b2340d4cf6ad51634e30a16ffb9
+PODFILE CHECKSUM: 9e78021990d3ce2def0fc283c037e87f42981ee4
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.2.1

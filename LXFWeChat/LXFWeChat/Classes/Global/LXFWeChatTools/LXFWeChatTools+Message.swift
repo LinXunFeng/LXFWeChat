@@ -15,6 +15,15 @@ enum LXFWeChatMessageType {
     case video
 }
 
+class videoChatAttachment: NSObject, NIMCustomAttachment {
+    // 0 : 视频   1 : 音频
+    var videoType: Int = 1
+    
+    func encode() -> String {
+        return "\(videoType)"
+    }
+}
+
 // MARK:- 发送信息
 extension LXFWeChatTools {
     // MARK: 发送文本
@@ -43,6 +52,19 @@ extension LXFWeChatTools {
             message.messageObject = NIMVideoObject(sourcePath: filePath)
         }
         self.sendMessage(userId: userId, message: message)
+    }
+    
+    // MARK: 发送视频聊天
+    func sendVideoChat(userId: String?) {
+        guard let userId = userId else { return }
+        let customObj = NIMCustomObject()
+        let attachment = videoChatAttachment()
+        customObj.attachment = attachment
+        let message = NIMMessage()
+        message.messageObject = customObj
+        let session = NIMSession(userId, type: .P2P)
+        
+        guard ((try? NIMSDK.shared().chatManager.send(message, to: session)) != nil) else { return }
     }
     
     // MARK: 发送
@@ -104,6 +126,7 @@ extension LXFWeChatTools: NIMChatManagerDelegate {
             } else {
                 LXFLog("收到非当前聊天用户发来的消息")
             }
+//            NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNoteChatMsgInsertMsg), object: msg)
         }
     }
     // 如果收到的是图片，视频等需要下载附件的消息，在回调的处理中还需要调用（SDK 默认会在第一次收到消息时自动调用）

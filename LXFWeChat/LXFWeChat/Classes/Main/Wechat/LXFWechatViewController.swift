@@ -100,6 +100,9 @@ extension LXFWechatViewController {
         
         // 注册cellID
         tableView.register(LXFRecentSessionCell.self, forCellReuseIdentifier: LXFRecentSessionCellID)
+        
+        // 注册通知
+        self.registerNote()
     }
 }
 

@@ -49,7 +49,7 @@ extension LXFWeChatTools {
                 errorBlock(nil)
             } else {
                 errorBlock(error)
-                LXFLog((error as! NSError).code)
+                LXFLog((error! as NSError).code)
             }
         })
     }
@@ -174,7 +174,7 @@ extension LXFWeChatTools: NIMUserManagerDelegate {
         // 该回调在成功 添加/删除 好友后都会调用
         // 好友添加成功后，会触发回调
         // 解除成功后，会同时修改本地的缓存数据，并触发回调
-        LXFLog("好友列表更新：\(user.alias)")
+        LXFLog("好友列表更新：\(String(describing: user.alias))")
         // 发送更新好友列表的通知
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: kNoteContactUpdateFriends), object: self, userInfo: nil)
     }

@@ -80,9 +80,29 @@ extension LXFChatBarViewController : LXFChatMoreViewDelegate {
             // videoVC.delegate = self
             videoVC.startAnimation(with: .small)
             // self.present(videoVC, animated: true, completion: nil)
+        } else if type == .video {  // 视频聊天
+            let sheet = LXFActionSheet(delegate: self, cancelTitle: "取消", otherTitles: ["直播聊天"])
+            sheet.show()
+            // 隐藏chatBarView
+            let chatVC = self.delegate as! LXFChatController
+            chatVC.resetChatBarFrame()
         }
     }
 }
+
+// MARK:- LXFActionSheetDelegate
+extension LXFChatBarViewController: LXFActionSheetDelegate {
+    func lxfActionSheet(actionSheet: LXFActionSheet, didClickedAt index: Int) {
+        switch index {
+        case 0:
+            LXFLog("直播聊天")
+            self.present(LXFVideoChatController(user: user, isInitiator: true), animated: true, completion: nil)
+        default:
+            break
+        }
+    }
+}
+
 
 // MARK:- TZImagePickerControllerDelegate 图片选择器代理
 extension LXFChatBarViewController: TZImagePickerControllerDelegate {

@@ -33,6 +33,7 @@ extension LXFChatMsgController {
     // MARK: 插入发送/收到的消息
     @objc fileprivate func insertMsgNote(_ note: Notification) {
         guard let nimMsg = note.object as? NIMMessage else { return }
+        
         // 获取格式化后的模型数据
         let msgs = LXFChatMsgDataHelper.shared.getFormatMsgs(nimMsgs: [nimMsg])
         let models = LXFChatMsgDataHelper.shared.addTimeModel(finalModel: dataArr.last, models: msgs)
@@ -40,6 +41,7 @@ extension LXFChatMsgController {
             self.insertRowModel(model: model)
         }
         LXFLog("新消息插入")
+        
     }
     // MARK: 更新消息
     @objc fileprivate func updateMsg(_ note: NSNotification) {

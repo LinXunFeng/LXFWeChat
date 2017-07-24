@@ -106,6 +106,9 @@
 		FD7860A31E2E13D40038C1C4 /* LXFRecentSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7860A21E2E13D40038C1C4 /* LXFRecentSessionModel.swift */; };
 		FD7860A51E2E16390038C1C4 /* LXFRecentSessionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7860A41E2E16390038C1C4 /* LXFRecentSessionCell.swift */; };
 		FD7BD17C1E3E3A53004FAF45 /* LXFProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7BD17B1E3E3A53004FAF45 /* LXFProfileViewController.swift */; };
+		FD7FAD9F1F261CD400DB908B /* LXFWechatViewController+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7FAD9E1F261CD400DB908B /* LXFWechatViewController+Notification.swift */; };
+		FD7FADA11F26224500DB908B /* LXFVideoChatController+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7FADA01F26224500DB908B /* LXFVideoChatController+Stream.swift */; };
+		FD7FADA31F26274500DB908B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD7FADA21F26274500DB908B /* IJKMediaFramework.framework */; };
 		FD7FF26D1E38E3310002F206 /* LXFSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7FF26C1E38E3310002F206 /* LXFSettingViewController.swift */; };
 		FD7FF3E51E23837C00730D94 /* LXFChatMsgController+Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7FF3E41E23837C00730D94 /* LXFChatMsgController+Notification.swift */; };
 		FD7FF3EF1E23C2CB00730D94 /* CCSwipBackPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7FF3EB1E23C2CB00730D94 /* CCSwipBackPresentationController.swift */; };
@@ -136,6 +139,9 @@
 		FDA268A91E2E0591006AB2AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA268A81E2E0591006AB2AE /* QuartzCore.framework */; };
 		FDB969661E3ACB7000757E5F /* LXFSettingAvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB969651E3ACB7000757E5F /* LXFSettingAvatarCell.swift */; };
 		FDB969681E3ACD3500757E5F /* LXFSettingBaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB969671E3ACD3500757E5F /* LXFSettingBaseCell.swift */; };
+		FDC7548F1F24A66900A815DE /* LXFVideoChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC7548E1F24A66900A815DE /* LXFVideoChatController.swift */; };
+		FDC754911F24AB0000A815DE /* LXFVerticalBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC754901F24AB0000A815DE /* LXFVerticalBtn.swift */; };
+		FDC754941F24C82600A815DE /* LXFVideoChatTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC754931F24C82600A815DE /* LXFVideoChatTopView.swift */; };
 		FDCF4E951E0E5E7D00CB2E46 /* LXFBaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF4E941E0E5E7D00CB2E46 /* LXFBaseController.swift */; };
 		FDCF4E981E0E69D100CB2E46 /* LXFBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCF4E971E0E69D100CB2E46 /* LXFBaseNavigationController.swift */; };
 		FDD583621E2E4C9E000AAC62 /* UITabBar+Extenstion.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD583611E2E4C9E000AAC62 /* UITabBar+Extenstion.swift */; };
@@ -265,6 +271,9 @@
 		FD7860A21E2E13D40038C1C4 /* LXFRecentSessionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFRecentSessionModel.swift; sourceTree = "<group>"; };
 		FD7860A41E2E16390038C1C4 /* LXFRecentSessionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFRecentSessionCell.swift; sourceTree = "<group>"; };
 		FD7BD17B1E3E3A53004FAF45 /* LXFProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFProfileViewController.swift; sourceTree = "<group>"; };
+		FD7FAD9E1F261CD400DB908B /* LXFWechatViewController+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LXFWechatViewController+Notification.swift"; sourceTree = "<group>"; };
+		FD7FADA01F26224500DB908B /* LXFVideoChatController+Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LXFVideoChatController+Stream.swift"; sourceTree = "<group>"; };
+		FD7FADA21F26274500DB908B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		FD7FF26C1E38E3310002F206 /* LXFSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFSettingViewController.swift; sourceTree = "<group>"; };
 		FD7FF3E41E23837C00730D94 /* LXFChatMsgController+Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LXFChatMsgController+Notification.swift"; sourceTree = "<group>"; };
 		FD7FF3EB1E23C2CB00730D94 /* CCSwipBackPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCSwipBackPresentationController.swift; sourceTree = "<group>"; };
@@ -296,6 +305,9 @@
 		FDA268A81E2E0591006AB2AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FDB969651E3ACB7000757E5F /* LXFSettingAvatarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFSettingAvatarCell.swift; sourceTree = "<group>"; };
 		FDB969671E3ACD3500757E5F /* LXFSettingBaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFSettingBaseCell.swift; sourceTree = "<group>"; };
+		FDC7548E1F24A66900A815DE /* LXFVideoChatController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFVideoChatController.swift; sourceTree = "<group>"; };
+		FDC754901F24AB0000A815DE /* LXFVerticalBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFVerticalBtn.swift; sourceTree = "<group>"; };
+		FDC754931F24C82600A815DE /* LXFVideoChatTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFVideoChatTopView.swift; sourceTree = "<group>"; };
 		FDCF4E941E0E5E7D00CB2E46 /* LXFBaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFBaseController.swift; sourceTree = "<group>"; };
 		FDCF4E971E0E69D100CB2E46 /* LXFBaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LXFBaseNavigationController.swift; sourceTree = "<group>"; };
 		FDD583611E2E4C9E000AAC62 /* UITabBar+Extenstion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+Extenstion.swift"; sourceTree = "<group>"; };
@@ -306,6 +318,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD7FADA31F26274500DB908B /* IJKMediaFramework.framework in Frameworks */,
 				FDA268A91E2E0591006AB2AE /* QuartzCore.framework in Frameworks */,
 				162B68E1745672187B240369 /* Pods_LXFWeChat.framework in Frameworks */,
 			);
@@ -377,6 +390,7 @@
 		FD0A981E1E0CEB41004654A2 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				FD7FADA21F26274500DB908B /* IJKMediaFramework.framework */,
 				FD43AE301E480A2600CF7560 /* LXFActionSheet */,
 				FD9770BC1E3F8BC800F6B06F /* LBXScan */,
 				FD4949281E2CF8FF00E96A66 /* DACircularProgress */,
@@ -589,6 +603,7 @@
 			children = (
 				FD491E181E0E001B0002A1C2 /* LXFBarButton.swift */,
 				FD5633B81E0E16FF007B15D6 /* LXFLinkButton.swift */,
+				FDC754901F24AB0000A815DE /* LXFVerticalBtn.swift */,
 			);
 			path = LXFButton;
 			sourceTree = "<group>";
@@ -700,6 +715,8 @@
 		FD52F81C1E1B30B80035BC3D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				FDC7548C1F24A64C00A815DE /* LXFVideoChatController */,
+				FDC7548D1F24A64C00A815DE /* LXFVoiceChatController */,
 				FD52F81D1E1B30B80035BC3D /* LXFChatBarViewController.swift */,
 				FD52F83C1E1B3E900035BC3D /* LXFChatBarViewController+Delegate.swift */,
 			);
@@ -888,6 +905,7 @@
 				FD5633D21E0E5573007B15D6 /* Model */,
 				FD5633D31E0E5573007B15D6 /* View */,
 				FD5633D41E0E55F7007B15D6 /* LXFWechatViewController.swift */,
+				FD7FAD9E1F261CD400DB908B /* LXFWechatViewController+Notification.swift */,
 			);
 			path = Wechat;
 			sourceTree = "<group>";
@@ -1069,6 +1087,31 @@
 			path = LBXScan;
 			sourceTree = "<group>";
 		};
+		FDC7548C1F24A64C00A815DE /* LXFVideoChatController */ = {
+			isa = PBXGroup;
+			children = (
+				FDC754921F24C80D00A815DE /* View */,
+				FDC7548E1F24A66900A815DE /* LXFVideoChatController.swift */,
+				FD7FADA01F26224500DB908B /* LXFVideoChatController+Stream.swift */,
+			);
+			path = LXFVideoChatController;
+			sourceTree = "<group>";
+		};
+		FDC7548D1F24A64C00A815DE /* LXFVoiceChatController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LXFVoiceChatController;
+			sourceTree = "<group>";
+		};
+		FDC754921F24C80D00A815DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDC754931F24C82600A815DE /* LXFVideoChatTopView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		FDCF4E931E0E5E6B00CB2E46 /* LXFBaseController */ = {
 			isa = PBXGroup;
 			children = (
@@ -1121,7 +1164,7 @@
 				TargetAttributes = {
 					FD0A98071E0CE8B5004654A2 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 737663D98K;
+						DevelopmentTeam = YW4UZF7FT3;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -1178,7 +1221,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		85607720477CE8B894DC3D05 /* [CP] Embed Pods Frameworks */ = {
@@ -1227,6 +1270,7 @@
 				FD52F82E1E1B30B90035BC3D /* LXFChatBarView.swift in Sources */,
 				FD480FB51E1D21060044BA67 /* LXFChatFindEmotion.swift in Sources */,
 				FDCF4E981E0E69D100CB2E46 /* LXFBaseNavigationController.swift in Sources */,
+				FD7FADA11F26224500DB908B /* LXFVideoChatController+Stream.swift in Sources */,
 				FD5633DB1E0E563E007B15D6 /* LXFMineViewController.swift in Sources */,
 				FD49DBB51E207A26006F96E0 /* TZAssetModel.m in Sources */,
 				FD8993341E3CE4BB00277F50 /* LXFSettingMiddleCell.swift in Sources */,
@@ -1234,6 +1278,7 @@
 				FD52F82F1E1B30B90035BC3D /* LXFChatEmotionCell.swift in Sources */,
 				FD49DBBC1E207A26006F96E0 /* TZPhotoPreviewCell.m in Sources */,
 				FD52F83D1E1B3E900035BC3D /* LXFChatBarViewController+Delegate.swift in Sources */,
+				FD7FAD9F1F261CD400DB908B /* LXFWechatViewController+Notification.swift in Sources */,
 				FD446A921E397BC400499905 /* LXFSettingCellModel.swift in Sources */,
 				FD7FF3F21E23C2CB00730D94 /* CCZoomTransitionVCExtension.swift in Sources */,
 				FD5633D91E0E5636007B15D6 /* LXFFindViewController.swift in Sources */,
@@ -1252,8 +1297,10 @@
 				FD4991A11E17BF4600F8D79D /* LXFChatController.swift in Sources */,
 				FD93ED0E1E2BB99C00BDB196 /* LXFProgressHUD.swift in Sources */,
 				FD9770C71E3F8BD100F6B06F /* LBXScanView.swift in Sources */,
+				FDC7548F1F24A66900A815DE /* LXFVideoChatController.swift in Sources */,
 				FD93ED161E2BBF3600BDB196 /* LXFPhotoListCell.swift in Sources */,
 				FD901A911E13AC1200B0D417 /* LXFNetworkTools.swift in Sources */,
+				FDC754941F24C82600A815DE /* LXFVideoChatTopView.swift in Sources */,
 				FD480F641E1CD0940044BA67 /* LXFChatMsgModel.swift in Sources */,
 				FD4A94761E125A6F0007FD4E /* LXFSearchController.swift in Sources */,
 				FD54D28A1E29B66D00992AD8 /* LXFChatAudioCell.swift in Sources */,
@@ -1288,6 +1335,7 @@
 				FD5633C31E0E5462007B15D6 /* LXFMainViewController.swift in Sources */,
 				FD5633BB1E0E1844007B15D6 /* LXFLoginTopView.swift in Sources */,
 				FD52F82D1E1B30B90035BC3D /* LXFChatEmotion.swift in Sources */,
+				FDC754911F24AB0000A815DE /* LXFVerticalBtn.swift in Sources */,
 				FD4DB6D61E21E079009E86D9 /* LXFChatMsgTimeHelper.swift in Sources */,
 				FD4DB6D21E21C46A009E86D9 /* LXFChatTimeCell.swift in Sources */,
 				FDB969661E3ACB7000757E5F /* LXFSettingAvatarCell.swift in Sources */,
@@ -1433,6 +1481,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -1442,7 +1491,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1454,7 +1503,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 737663D98K;
+				DEVELOPMENT_TEAM = YW4UZF7FT3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LXFWeChat/Classes/Lib",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = LXFWeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS";
@@ -1474,13 +1528,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = 737663D98K;
+				DEVELOPMENT_TEAM = YW4UZF7FT3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LXFWeChat/Classes/Lib",
+				);
+				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = LXFWeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LXF.LXFWeChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LXFWeChat/Classes/Other/LXFWeChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";

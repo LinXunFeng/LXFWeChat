@@ -70,6 +70,8 @@ class LXFChatMsgModel: NSObject {
                 videoDuration = videoObj.duration
                 fileLength = videoObj.fileLength
             default:
+                modelType = .text
+                self.text = "直播请求消息"
                 break
             }
             

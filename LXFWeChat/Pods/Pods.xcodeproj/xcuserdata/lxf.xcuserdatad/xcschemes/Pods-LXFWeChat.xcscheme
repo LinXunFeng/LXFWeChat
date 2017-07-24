@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BBCF8043475544737B176B6421073310"
+               BlueprintIdentifier = "2986F51448AB1968096048CFCA4949D7"
                BuildableName = "Pods_LXFWeChat.framework"
                BlueprintName = "Pods-LXFWeChat"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BBCF8043475544737B176B6421073310"
+            BlueprintIdentifier = "2986F51448AB1968096048CFCA4949D7"
             BuildableName = "Pods_LXFWeChat.framework"
             BlueprintName = "Pods-LXFWeChat"
             ReferencedContainer = "container:Pods.xcodeproj">

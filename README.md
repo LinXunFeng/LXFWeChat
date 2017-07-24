@@ -74,6 +74,10 @@ navigationBar.insertSubview(blurBackView, at: 0)
 ## 已知BUG
 小视频和图片发送出去后不能立即更新显示缩略图
 
+## 2017-07-24 更新
+抽空出来添加了一个简单的直播功能（对方需要先进入到对应的聊天界面）
+
+
 ## 效果图
 ### 动态图
 ![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/1.gif)
@@ -83,6 +87,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 ![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/5.gif)
 ![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/6.gif)
 ![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/7.gif)
+![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/8.gif)
 
 ### 静态图
 ![image](https://github.com/LinXunFeng/LXFWeChat/raw/master/Screenshots/Snip20170206_1.png)
