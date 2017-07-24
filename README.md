@@ -76,6 +76,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 ## 2017-07-24 更新
 抽空出来添加了一个简单的直播功能（对方需要先进入到对应的聊天界面）
+[iOS - 给高仿微信添加直播聊天功能](http://www.jianshu.com/p/022b9044decc)
 
 
 ## 效果图
