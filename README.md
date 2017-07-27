@@ -1,6 +1,8 @@
 # LXFWeChat
 Swift 3.0 高仿微信
 
+> 两个测试账号： lxf lqr  密码都是123456 
+
 ## 模仿微信的导航栏
 在navigationBar底部添加一个添加了渐变层的view
 ```swift
@@ -77,6 +79,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 ## 2017-07-24 更新
 抽空出来添加了一个简单的直播功能（对方需要先进入到对应的聊天界面）
 [iOS - 给高仿微信添加直播聊天功能](http://www.jianshu.com/p/022b9044decc)
+需要用到[编译好的B站开源库ijkplayer](https://github.com/LinXunFeng/IJKFramework) ，由于打包好的文件太大，传不上来，所以需要各位去自己编译集成进去。
 
 
 ## 效果图
