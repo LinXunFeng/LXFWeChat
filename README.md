@@ -116,6 +116,8 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 
 
+
+
 ## Author
 
 - LinXunFeng
@@ -124,7 +126,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 
 
-| <img src="https://github.com/LinXunFeng/linxunfeng.github.io/raw/master/images/others/wx/wxQR.png" style="width:200px;height:200px;"></img> | <img src="https://github.com/LinXunFeng/linxunfeng.github.io/raw/master/images/others/pay/alipay.png" style="width:200px;height:200px;"></img> | <img src="https://github.com/LinXunFeng/linxunfeng.github.io/raw/master/images/others/pay/wechat.png" style="width:200px;height:200px;"></img> |
+| <img src="https://github.com/LinXunFeng/site/raw/master/source/images/others/wx/wxQR_tip.png" style="width:200px;height:200px;"></img> | <img src="https://github.com/LinXunFeng/site/raw/master/source/images/others/pay/alipay_tip.png" style="width:200px;height:200px;"></img> | <img src="https://github.com/LinXunFeng/site/raw/master/source/images/others/pay/wechat_tip.png" style="width:200px;height:200px;"></img> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |                                                              |                                                              |                                                              |
 
