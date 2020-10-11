@@ -37,20 +37,20 @@ navigationBar.insertSubview(blurBackView, at: 0)
 ## 表情面板和更多面板
 遇到的问题总结了一下，可以参考下以下总结的文章
 
-[《iOS - Swift UICollectionView横向分页滚动，cell左右排版》](http://www.jianshu.com/p/18d7d0f5e3e2)
+[《iOS - Swift UICollectionView横向分页滚动，cell左右排版》](https://juejin.im/post/6844903533507002376)
 
-[《iOS - Swift UICollectionView横向分页的问题》](http://www.jianshu.com/p/60da3b52d64c)
+[《iOS - Swift UICollectionView横向分页的问题》](https://juejin.im/post/6844903533498597384)
 
 ## 聊天界面
-[《iOS - Swift 仿微信聊天图片显示》](http://www.jianshu.com/p/4c570cd79bd3)
+[《iOS - Swift 仿微信聊天图片显示》](https://juejin.im/post/6844903533511344142)
 
-[《iOS - Swift UITableView的scrollToRow的"坑"》](http://www.jianshu.com/p/aa139463eb4b)
+[《iOS - Swift UITableView的scrollToRow的"坑"》](https://juejin.im/post/6844903533473431560)
 
-[《iOS - Swift UIButton中ImageView的animationImages动画执行完毕后，图标变暗》](http://www.jianshu.com/p/412a2e23b5b6)
+[《iOS - Swift UIButton中ImageView的animationImages动画执行完毕后，图标变暗》](https://juejin.im/post/6844903533502791693)
 
 
 ## 首页
-[《iOS - Swift 仿微信小红点(无数字)》](http://www.jianshu.com/p/807cddad469a)
+[《iOS - Swift 仿微信小红点(无数字)》](https://juejin.im/post/6844903533490208775)
 
 
 >由于个人原因，近期不怎么有时间去完善该项目，所以先同步上来，待有空继续去搞定它！
@@ -87,7 +87,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 ## 2017-07-24 更新
 抽空出来添加了一个简单的直播功能（对方需要先进入到对应的聊天界面）
-[iOS - 给高仿微信添加直播聊天功能](http://www.jianshu.com/p/022b9044decc)
+[iOS - 给高仿微信添加直播聊天功能](https://juejin.im/post/6844903533506985997)
 需要用到[编译好的B站开源库ijkplayer](https://github.com/LinXunFeng/IJKFramework) ，由于打包好的文件太大，传不上来，所以需要各位去自己编译集成进去。
 
 
@@ -122,7 +122,7 @@ navigationBar.insertSubview(blurBackView, at: 0)
 
 - LinXunFeng
 - email: [xunfenghellolo@gmail.com](mailto:xunfenghellolo@gmail.com)
-- Blogs:  [LinXunFeng‘s Blog](http://linxunfeng.top/)  | [掘金](https://juejin.im/user/58f8065e61ff4b006646c72d/posts) | [简书](https://www.jianshu.com/u/31e85e7a22a2)
+- Blogs:  [LinXunFeng‘s Blog](http://linxunfeng.top/)  | [掘金](https://juejin.im/user/58f8065e61ff4b006646c72d/posts)
 
 
 
